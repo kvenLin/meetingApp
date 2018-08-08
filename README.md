@@ -22,7 +22,7 @@ Field | Type | Null | Default | Primary Key | extra
 --- | --- | ---| ---| ---| ---
 **id** | bigint(20) | no | |yes | auto_increment start from 1
 **address** | varchar(255) | no | | no | 
-**contain**| int(5) | yes | null | no | hold people number
+**max_contain**| int(5) | yes | null | no | hold people number
 
 - meeting 
 
